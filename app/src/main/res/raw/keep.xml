@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:discard="
+    @layout/activity_main_one,
+    @layout/activity_main_second,
+    @layout/activity_main_three,
+    @layout/activity_main_four"
+    tools:keep="@layout/activity_main*_c,@layout/activity_main_second_a,@layout/l_used_b*"
+    tools:shrinkMode="strict" />
+
+
+    <!--<resources xmlns:tools="http://schemas.android.com/tools"-->
+    <!--    tools:keep="@layout/activity_main_second*,-->
+    <!--    @layout/activity_main* "/>-->
+
+
+    <!--<resources xmlns:tools="http://schemas.android.com/tools"
+    tools:keep="@layout/l_used*_c,@layout/l_used_a,@layout/l_used_b*"
+    tools:discard="@layout/unused2" />-->
+
+    <!--    <resources xmlns:tools="http://schemas.android.com/tools"-->
+    <!--        tools:discard="@layout/activity_main_new"-->
+    <!--        tools:shrinkMode="strict"-->
+    <!--        tools:keep="@layout/activity_main*_c" />-->
+
